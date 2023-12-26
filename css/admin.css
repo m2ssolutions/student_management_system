@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: -10px;
+    font-family: "Century Gothic",sans-serif;
+    transition: 0.4s;
+    color: #000000;
+    
+    
+    
+}
+.header{
+    position:sticky;
+    width: 100%;
+    background-color: #000000;
+    height: 80px;
+    line-height: 70px;
+    padding-left: 30px;
+    
+}
+
+.logo{
+    position: relative;
+    left: 5%;
+    font-weight: bold;
+    font-family: Century;
+    line-height: 70px;
+    padding-top: 7px;
+}
+.logout{
+    display: block;
+    float: right;
+    padding-right: 50px;
+    color: #e9e6e1;
+}
+
+.sinav{
+    position:absolute;
+    background-color: #F0A500;
+    width: 300px;
+    height:100%;
+    padding-top: 5%;
+    text-align:center;
+}
+
+.sinav ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size:large;
+    line-height: 30px;
+    
+}
+.sinav ul li a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.sinav ul li a:hover{
+    color: aqua;
+    font-size:xx-large;
+    
+}
+.active{
+    color: aqua;
+    font-size:xx-large;
+    
+}
+.cont{
+    overflow-y: scroll;
+    min-height: 916px;
+    max-height: 916px;
+    margin-top:0px;
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+.table{
+    color: #fff;
+    background-color: transparent;
+    width: 500px;
+}
+.table th td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+footer{
+    
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 90px;
+    background:linear-gradient(#000000c3,#000000c3),#e9e6e1;
+    display: inline-flex;
+    color: #F0A500;
+    
+    
+}
+footer ul{
+    float: right;
+    margin-right: 70%;
+    
+}
+footer ul li  {
+    display: inline-block;
+    
+    
+}
+footer p{
+    float: right;
+}
+footer h6,p{
+    width:fit-content;
+    line-height: 50px;
+    font-size: auto;
+}

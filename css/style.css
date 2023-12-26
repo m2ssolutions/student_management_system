@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Century Gothic",sans-serif;
+    transition: 0.6s;
+    
+    
+}
+
+.navlist{
+    position:fixed;
+    background-color:none;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    
+}
+.logo{
+    font-size: 55px;
+    position: relative;
+    left: 5%;
+    color:#F0A500;
+    font-weight: bold;
+    font-family: Century;
+    line-height: 90px;
+}
+.navlist ul{
+    
+    position: relative;
+    float: right;
+    margin-right: 70px;
+
+}
+.navlist ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin:0 5px;
+    
+}
+.navlist ul li a{
+    text-decoration: none;
+    color:#F0A500;
+    font-size: 19px;
+    line-height: 40px;
+    font-weight:100;
+}
+.navlist ul a:hover{
+    color:aliceblue;
+}
+
+.containbox{
+    width: 100%;
+    height: 80vh;
+    padding-top: 300px;
+    background-image: linear-gradient(#000000c3,#000000c3),url(../img/home/2015117-18294510-3375-studying-book.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: azure;
+}
+.containbox h1{
+    font-family: serif;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+.containbox p{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.containbox button{
+    padding: 10px;
+    background: none;
+    border: 1px solid #F0A500;
+}
+.containbox button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.containbox button:hover{
+    text-decoration: none;
+    background: #F0A500;
+    color: black;
+}
+
+.title{
+    text-align: center;
+    color: #F0A500;
+    background-color:none;
+    height: 100px;
+    line-height: 90px;
+    margin-top: 60px;
+}
+.title h2{
+    line-height: 100px;
+}
+.newsf{
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border: 4px solid ;
+    border-color: #F0A500;
+    font-size: 25px;
+}
+.section1{
+    padding-top: 40px;
+    padding-left: 10%;
+    width: 90%;
+    margin-bottom: 50px;
+    
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 90px;
+    background:linear-gradient(#000000c3,#000000c3),#e9e6e1;
+    display: inline-flex;
+    color: #F0A500;
+    
+    
+}
+.footer ul{
+    float: right;
+    margin-right: 70%;
+    
+}
+.footer ul li  {
+    display: inline-block;
+    
+    
+}
+.footer p{
+    float: right;
+}
+.footer h6,p{
+    width:fit-content;
+    line-height: 50px;
+    font-size: auto;
+}
